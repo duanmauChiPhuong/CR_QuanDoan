@@ -3,35 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>@yield('title', 'BeeSoft')</title>
-
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
     <link rel="stylesheet" href="{{ asset('css/fullcalendar.bundle.css') }}">
-
     <link rel="stylesheet" href="{{ asset('css/plugins.bundle.css') }}">
-
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/36/b0/a0/36b0a084544360c807d7c778358f762d.png" />
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/0/09/Huy_Hi%E1%BB%87u_%C4%90o%C3%A0n.png" />
 </head>
 
-<body id="kt_body" class="bg-body">
+<body id="kt_body" class="bg-body" style="background-color: #4689F5;"> <!-- Xanh nước biển -->
     <div class="d-flex flex-column flex-root">
         <!--begin::Authentication - Sign-in -->
         <div class="d-flex flex-column flex-lg-row flex-column-fluid">
             <!--begin::Aside-->
             <div class="d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative"
-                style="background-color: #F2C98A">
+                style="background-color: #4689F5">
                 <!--begin::Wrapper-->
                 <div class="d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px">
                     <!--begin::Content-->
@@ -39,25 +29,22 @@
                         <!--begin::Logo-->
                         <a href="#" class="py-9 mb-5 d-flex justify-content-center">
                             <img alt="Logo"
-                                src="https://i.pinimg.com/originals/36/b0/a0/36b0a084544360c807d7c778358f762d.png"
-                                class="h-60px" />
+                                src="https://upload.wikimedia.org/wikipedia/vi/0/09/Huy_Hi%E1%BB%87u_%C4%90o%C3%A0n.png"
+                                class="h-400px" />
                         </a>
                         <!--end::Logo-->
                         <!--begin::Title-->
-                        <h1 class="fw-bolder fs-2qx" style="color: #000000;">Chào Mừng Đến Với</h1>
-                        <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #128833;">BeeSoft</h1>
+                        <h1 class="fw-bolder fs-2qx" style="color: #fff;">ĐOÀN THANH NIÊN <br> CỘNG SẢN HỒ CHÍ MINH</h1>
+                        <hr class="custom-line">
                         <!--end::Title-->
                         <!--begin::Description-->
-                        <p class="fw-bold fs-2" style="color: #000000;">BeeSoft luôn nỗ lực sáng tạo sản phẩm ngày một
-                            thông minh hơn và tiện ích hơn nhằm thực hiện khát vọng ứng dụng những thành tựu của CNTT
-                            vào lĩnh vực y tế
-                        </p>
+                        <p class="fw-bolder fs-2" style="color: #fff;">QUẬN ĐOÀN CÁI RĂNG</p>
                         <!--end::Description-->
                     </div>
                     <!--end::Content-->
                     <!--begin::Illustration-->
-                    <div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px"
-                        style="background-image: url(assets/media/illustrations/sketchy-1/13.png"></div>
+                    <div class="d-flex flex-row-auto min-h-100px min-h-lg-350px"
+                        style="background-color: #4689F5;"></div> <!-- Xanh nước biển -->
                     <!--end::Illustration-->
                 </div>
                 <!--end::Wrapper-->
@@ -83,7 +70,7 @@
                             <!--begin::Input group-->
                             <div class="fv-row mb-10">
                                 <!--begin::Label-->
-                                <label class="form-label fs-6 fw-bolder text-dark">Số Điện Thoại</label>
+                                <label class="form-label fs-6 fw-bolder text-dark">Tên Đăng Nhập</label>
                                 <!--end::Label-->
                                 <!--begin::Input-->
                                 <input class="form-control form-control-lg form-control-solid" type="text"
@@ -138,11 +125,11 @@
                 <!--begin::Footer-->
                 <div class="d-flex flex-center flex-wrap fs-6 p-5 pb-0">
                     <!--begin::Links-->
-                    <div class="d-flex flex-center fw-bold fs-6">
+                    {{-- <div class="d-flex flex-center fw-bold fs-6">
                         <a href="#" class="text-muted text-hover-primary px-2" target="_blank">Giới Thiệu</a>
                         <a href="#" class="text-muted text-hover-primary px-2" target="_blank">Hỗ Trợ</a>
                         <a href="#" class="text-muted text-hover-primary px-2" target="_blank">Điều Khoản</a>
-                    </div>
+                    </div> --}}
                     <!--end::Links-->
                 </div>
                 <!--end::Footer-->
@@ -153,23 +140,14 @@
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
-
     <script src="{{ asset('js/plugins.bundle.js') }}"></script>
-
     <script src="{{ asset('js/scripts.bundle.js') }}"></script>
-
     <script src="{{ asset('js/fullcalender.bundle.js') }}"></script>
-
     <script src="{{ asset('js/widgets.js') }}"></script>
-
     <script src="{{ asset('js/chat.js') }}"></script>
-
     <script src="{{ asset('js/create-app.js') }}"></script>
-
     <script src="{{ asset('js/upgrade-plan.js') }}"></script>
-
     <script src="{{ asset('js/login/login.js') }}"></script>
-
 
 </body>
 

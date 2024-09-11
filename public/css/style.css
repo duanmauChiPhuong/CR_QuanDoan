@@ -31273,7 +31273,7 @@ fieldset:disabled .btn {
     }
 
     .fs-2 {
-        font-size: 1.5rem !important
+        font-size: 3.3rem !important;
     }
 
     .fs-3 {
@@ -31285,7 +31285,12 @@ fieldset:disabled .btn {
     }
 
     .fs-2qx {
-        font-size: 2.25rem !important
+        font-size: 3.4rem !important
+    }
+    hr.custom-line {
+        border: none;
+        border-top: 2px solid #fff; /* Màu và độ dày của đường kẻ */
+        margin: 20px 0; /* Khoảng cách trên và dưới đường kẻ */
     }
 
     .fs-2hx {
