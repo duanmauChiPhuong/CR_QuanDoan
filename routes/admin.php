@@ -11,11 +11,7 @@ Route::prefix('system')->group(function () {
     $routeFiles = [
         'admin/report.php',
         'admin/warehouse.php',
-        'admin/check_warehouse.php',
-        'admin/chat.php',
         'admin/profile.php',
-        'admin/material.php',
-        'admin/order_request.php',
         'admin/notification.php',
     ];
 
